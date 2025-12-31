@@ -1,0 +1,37 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model HeroPhase {
+  id      Int    @id @default(autoincrement())
+  text    String
+  sub     String
+  align   String // "left", "center", "right"
+  color   String
+  order   Int    @default(0)
+}
+
+model ShowcasePhase {
+  id          Int     @id @default(autoincrement())
+  title       String
+  subtitle    String
+  description String
+  outlineText String
+  color       String
+  order       Int     @default(0)
+}
+
+model NavigationItem {
+  id    Int    @id @default(autoincrement())
+  label String
+  href  String
+  order Int    @default(0)
+}
