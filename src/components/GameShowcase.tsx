@@ -22,7 +22,7 @@ const phases: Phase[] = [
         description: "Explosive visual effects, particle systems, and cinematic compositing that bring imagination to reality.",
         outlineText: "EFFECTS",
         color: "#c45e3a",
-        video: "/Take_U_YT.mp4",
+        video: "https://cdn.discordapp.com/attachments/852838283901272094/1455279682454028482/Take_U_YT.mp4?ex=69562092&is=6954cf12&hm=037fdefdcfa69d230cf3343597dfb73ad858a0c9254f543f26de0222823c9ca3&",
         videoScale: 1.5
     },
     {
@@ -32,7 +32,7 @@ const phases: Phase[] = [
         description: "Creative editing, color grading, and visual storytelling that captures the rhythm and emotion of sound.",
         outlineText: "RHYTHM",
         color: "#3a7ec4",
-        video: "/cry_for_me_rui_part.mp4",
+        video: "https://cdn.discordapp.com/attachments/852838283901272094/1455528962267676713/cry_for_me_rui_part.mp4?ex=69565ffb&is=69550e7b&hm=b441d777b9b3b77cf5791148abcf9feb74d75647b38d0c908a2752e1c0fde1b2&",
         videoScale: 1.5
     },
     {
@@ -42,7 +42,7 @@ const phases: Phase[] = [
         description: "Character animation, motion graphics, and 3D artistry that breathes life into every frame.",
         outlineText: "ANIMATE",
         color: "#8a3ac4",
-        video: "/Till_Further_Notice_Insta.mp4"
+        video: "https://cdn.discordapp.com/attachments/852838283901272094/1455282315222716690/Till_Further_Notice_Insta.mp4?ex=69562305&is=6954d185&hm=72fc1398f2f300b37d8bcae959e0c599d7a9c335b9e700d6fec5f63e9467ab83&"
     },
     {
         id: 4,
@@ -51,7 +51,7 @@ const phases: Phase[] = [
         description: "Gaming montages, vlogs, tutorials, and social media content that captivates and engages audiences.",
         outlineText: "CREATE",
         color: "#3ac48a",
-        video: "/Insta.mp4",
+        video: "https://cdn.discordapp.com/attachments/852838283901272094/1455279594205741056/Insta.mp4?ex=6956207d&is=6954cefd&hm=95d4b2c7d8db04847d5c664b9af6140e8bc3adbf727395e63f33557916db82a6&",
         videoScale: 1.5
     }
 ];
